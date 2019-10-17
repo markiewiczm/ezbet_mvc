@@ -16,7 +16,7 @@ namespace WebAPI.Model
             modelBuilder.ApplyConfiguration(new BetMapConfiguration());
             modelBuilder.ApplyConfiguration(new GameMapConfiguration());
             modelBuilder.HasDefaultSchema("public");
-            base.OnModelCreating(modelBuilder);            
+            base.OnModelCreating(modelBuilder);
         }
     }
 }

@@ -17,7 +17,7 @@ namespace WebAPI.Controllers
         public ActionResult<IEnumerable<Bet>> Get()
         {
             using (var dbContext = new EzBetDbContext())
-            {                
+            {
                 return dbContext.Bets.ToList();
             }
         }

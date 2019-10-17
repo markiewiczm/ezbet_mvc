@@ -28,3 +28,7 @@
 /WebAPI/obj/Debug/netcoreapp2.1/WebAPI.csproj.FileListAbsolute.txt
 /WebAPI/obj/Debug/netcoreapp2.2/WebAPI.assets.cache
 /WebAPI/obj/Debug/netcoreapp2.2/WebAPI.csproj.FileListAbsolute.txt
+*/**/bin/Debug
+*/**/bin/Release
+*/**/obj/Debug
+*/**/obj/Release
